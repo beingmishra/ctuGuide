@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #425c59;
+    }
+
+    .button-store .custom-btn {
+      display: flex;
+      align-items: center;
+      padding: 0.8rem 1.5rem;
+      border: 2px solid #fff;
+      font-weight: 500;
+      border-radius: 3px;
+    }
+
+    .custom-btn {
+      border-color: #7c4fe0;
+    }
+
+
+    b {
+      font-size: larger;
+    }
+
+    @media (min-width: 576px) {
+            .me-sm-3 {
+                margin-right: 1rem !important;
+            }
+        }
+
+    @media (min-width: 576px) {
+            .m-sm-0 {
+                margin: 0 !important;
+            }
+
+            .m-2 {
+                margin: 0.5rem !important;
+            }
+
+            .align-items-center {
+                align-items: center !important;
+            }
+
+            .d-inline-flex {
+                display: inline-flex !important;
+            }
+
+            button {
+                background-color: transparent;
+                -webkit-text-decoration-skip: objects;
+                text-decoration: none;
+                color: #0d6efd;
+                transition: all 0.3s;
+            }
+        }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="text-gray-600 body-font pt-8">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-start">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span class="inline-flex items-center border-yellow-800 py-1 rounded-lg text-3xl text-white mt-4 md:mt-0">
+
+          <img src="https://raw.githubusercontent.com/beingmishra/CTU_Guide/main/icon.png" alt="" class="h-16">
+        </span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center justify-center">
+        <span class="font-bold text-4xl text-white" id="ctu">CTU GUIDE</span>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div style="background-image: url(...)"></div>
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 pt-12 lg:pt-20 pb-10 items-center md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-32 md:mb-0 items-center text-center">
+        <h1 class="title-font lg:text-6xl mb-6 font-medium text-white font-black text-4xl">Before they sold out
+          <br class="hidden lg:inline-block">readymade gluten
+        </h1>
+        <p class="mb-8 leading-relaxed text-zinc-300 text-base lg:text-lg">Copper mug try-hard pitchfork pour-over freegan heirloom
+          neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot
+          chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+
+        <div class="button-store wow fadeInUp" data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0.6s"
+          style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInUp;"
+          id="btns">
+          <button class="custom-btn  d-inline-flex w-56 align-items-center justify-center m-2 m-sm-0 me-sm-3 text-white hover:bg-[#fce4d0] hover:text-[#425c59]">
+            <i class="fa-brands fa-2x fa-google-play"></i>
+            <p class="ml-6">Available on <br> <b>Google Play</b></p>
+          </button>
+          <button class="custom-btn  d-inline-flex w-56 mt-6 lg:mt-0 align-items-center justify-center m-2 m-sm-0 text-white hover:bg-[#fce4d0] hover:text-[#425c59]">
+            <i class="fa-brands fa-2x fa-apple"></i>
+            <p class="ml-6">Download on <br> <b>App Store</b></p>
+          </button>
+        </div>
+      </div>
+
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-12 lg:mb-0 order-first md:order-last lg:order-last shadow-[2px_5px_20px_-5px_rgba(0,0,0,0.1)] lg:shadow-[2px_5px_20px_-5px_rgba(0,0,0,0)]">
+       <img class="rounded w-full h-full mx-auto" alt="hero" src="imagePrev.png">
+      </div>
+    </div>
+  </section>
+</body>
+<script src="https://kit.fontawesome.com/111b1c1bf6.js" crossorigin="anonymous"></script>
+</html>
